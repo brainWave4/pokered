@@ -11,8 +11,7 @@ IF DEF(_RED)
 	db  5, RATTATA
 	db  4, WEEDLE
 	db  5, WEEDLE
-ENDC
-IF DEF(_BLUE)
+ELSE
 	db  3, CATERPIE
 	db  2, RATTATA
 	db  5, RATTATA

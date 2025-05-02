@@ -11,8 +11,7 @@ IF DEF(_RED)
 	db  5, SPEAROW
 	db  3, NIDORAN_F
 	db  4, NIDORAN_F
-ENDC
-IF DEF(_BLUE)
+ELSE
 	db  3, NIDORAN_F
 	db  4, RATTATA
 	db  4, NIDORAN_F

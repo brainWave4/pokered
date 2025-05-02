@@ -9,8 +9,7 @@ IF DEF(_RED)
 	db  6, KAKUNA
 	db  4, METAPOD
 	db  3, CATERPIE
-ENDC
-IF DEF(_BLUE)
+ELSE
 	db  4, CATERPIE
 	db  5, METAPOD
 	db  3, CATERPIE
